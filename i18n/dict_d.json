@@ -1,0 +1,13 @@
+{
+  "_comment_d": "字体栈：数字/算符沿用日文字体；汉字与全角标点走 Noto Sans SC（700/900），标题类用 Noto SC Black（强制 900）",
+  "@font-face { font-family: \"Zen Maru Gothic\"; src: url(\"fonts/zen-maru-gothic-black.woff2\") format(\"woff2\"); font-weight: 900; font-display: block; }": "@font-face { font-family: \"Zen Maru Gothic\"; src: url(\"fonts/zen-maru-gothic-black.woff2\") format(\"woff2\"); font-weight: 900; font-display: block; }\n@font-face { font-family: \"Noto Sans SC\"; src: url(\"fonts/noto-sans-sc-700.woff2\") format(\"woff2\"); font-weight: 700; font-display: block; }\n@font-face { font-family: \"Noto Sans SC\"; src: url(\"fonts/noto-sans-sc-900.woff2\") format(\"woff2\"); font-weight: 800 900; font-display: block; }\n@font-face { font-family: \"Noto SC Black\"; src: url(\"fonts/noto-sans-sc-900.woff2\") format(\"woff2\"); font-weight: 400 900; font-display: block; }",
+  "--round: \"Zen Maru Gothic\", \"Hiragino Maru Gothic ProN\", \"Yu Gothic\", sans-serif;": "--round: \"Zen Maru Gothic\", \"Noto Sans SC\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;",
+  "--chunky: \"Dela Gothic One\", \"Zen Maru Gothic\", sans-serif;": "--chunky: \"Dela Gothic One\", \"Noto SC Black\", \"Noto Sans SC\", sans-serif;",
+  "font-family: \"Yu Gothic\", sans-serif;": "font-family: \"Noto Sans SC\", \"PingFang SC\", sans-serif;",
+  "c.font = `900 ${p.size}px \"Dela Gothic One\", \"Zen Maru Gothic\", sans-serif`;": "c.font = `900 ${p.size}px \"Dela Gothic One\", \"Noto Sans SC\", sans-serif`;",
+  "g.font = '400 22px \"Dela Gothic One\", sans-serif';": "g.font = '900 22px \"Dela Gothic One\", \"Noto Sans SC\", sans-serif';",
+  "font-family=\"Dela Gothic One, sans-serif\"": "font-family=\"Dela Gothic One, Noto SC Black, Noto Sans SC, sans-serif\"",
+  "clip-path: polygon(0 62%, 100% 50%, 100% 100%, 0 100%);": "clip-path: polygon(0 80%, 100% 76%, 100% 100%, 0 100%);",
+  "    3px 0 0 var(--ink), -3px 0 0 var(--ink), 0 3px 0 var(--ink), 0 -3px 0 var(--ink),\n    2.5px 2.5px 0 var(--ink), -2.5px 2.5px 0 var(--ink), 2.5px -2.5px 0 var(--ink), -2.5px -2.5px 0 var(--ink),": "    2px 0 0 var(--ink), -2px 0 0 var(--ink), 0 2px 0 var(--ink), 0 -2px 0 var(--ink),\n    1.6px 1.6px 0 var(--ink), -1.6px 1.6px 0 var(--ink), 1.6px -1.6px 0 var(--ink), -1.6px -1.6px 0 var(--ink),",
+  "  <link rel=\"canonical\" href=\"https://dopa-drill.tanosix.com/\">\n": ""
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "catalog": "https://zcxxcz.github.io/dopa-drill/catalog.json",
+  "records": [
+    {
+      "id": "dopa-drill",
+      "title": "多巴口算",
+      "type": "游戏",
+      "summary": "把日本「ドパドリル」中文化的口算练习游戏：58 个技能关卡，答对越多画面越热闹，答错不中断。",
+      "tags": [
+        "小学",
+        "数学",
+        "口算"
+      ],
+      "url": "https://zcxxcz.github.io/dopa-drill/",
+      "updated": "2026-10-22",
+      "featured": true
+    }
+  ]
+}

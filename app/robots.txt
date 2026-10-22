@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zcxxcz.github.io/dopa-drill/sitemap.xml
