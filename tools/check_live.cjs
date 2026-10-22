@@ -1,6 +1,6 @@
 const { chromium } = require('/Users/czhang/.workbuddy/binaries/node/workspace/node_modules/playwright-core');
 const CHROME = '/Users/czhang/Library/Caches/ms-playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing';
-const URL = 'https://dopa-drill-27679.app.workbuddy.host/?sharecode=LQBUVCP62H';
+const URL = process.argv[2] || 'https://zcxxcz.github.io/dopa-drill/';
 (async () => {
   const b = await chromium.launch({ executablePath: CHROME });
   const c = await b.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 });
